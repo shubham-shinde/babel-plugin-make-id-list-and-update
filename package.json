@@ -1,6 +1,6 @@
 {
 	"name": "babel-plugin-make-id-list-and-update",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"license": "GPL-3.0",
 	"repository": {
 		"type": "git",
