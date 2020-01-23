@@ -1,5 +1,5 @@
 {
-	"name": "babel-plugin-make-id-list-and-update",
+	"name": "babel-plugin-remove-jsx-attributes",
 	"version": "0.0.2",
 	"license": "GPL-3.0",
 	"repository": {

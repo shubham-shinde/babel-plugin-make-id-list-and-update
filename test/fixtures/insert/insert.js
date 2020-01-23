@@ -1,0 +1,1 @@
+a = [MAX_PANEL_PLUGIN]

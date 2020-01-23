@@ -1,3 +1,3 @@
 import React from 'react';
 
-const func = () => (<div data-uie-name="Hello" />);
+const func = () => (<div id="Hello3ID" data-uie-name="Hello" />);

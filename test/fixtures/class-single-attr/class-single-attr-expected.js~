@@ -1,5 +1,5 @@
 import React from 'react';
-a = ["Hello2ID", "HelloID"];
+a = ["Hello2ID", "HelloID", "Hello3ID"];
 class Hello {
 
   render() {
