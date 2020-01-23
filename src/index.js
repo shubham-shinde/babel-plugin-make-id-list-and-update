@@ -39,7 +39,7 @@ module.exports = function ({Plugin, types: t}) {
 
         required_ID.length && update_list_and_nodes(required_ID[0].value.value)
       },
-      Identifier(path, {to_change = "MAX_PANEL_PLUGIN" }) {
+      Identifier(path, {to_change = "HERE_COMES_THE_LIST_OF_IDS" }) {
         const name = path.node.name;
         if(name === to_change) {
           list_of_node.push(path)

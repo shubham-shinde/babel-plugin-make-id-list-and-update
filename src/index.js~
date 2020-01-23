@@ -22,7 +22,7 @@ module.exports = function ({Plugin, types: t}) {
     name !== "" && list_of_ids.push(name)
     for(let i=0; i<list_of_node.length; i++) {
       nnode = {...list_of_node[i]};
-      nnode = list_of_ids.map(id =>'"'+id+'"').join(', ');
+      nnode.node.name = list_of_ids.map(id =>'"'+id+'"').join(', ');
       list_of_node[i] = {...nnode}
     }
     console.log("called-------------------------", list_of_node.map(ddd => ddd.node.name))

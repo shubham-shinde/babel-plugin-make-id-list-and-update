@@ -1,5 +1,5 @@
 import React from 'react';
-a = [MAX_PANEL_PLUGIN]
+a = [HERE_COMES_THE_LIST_OF_IDS]
 class Hello {
 
   render() {

@@ -38,7 +38,7 @@ When adding `babel-plugin-remove-jsx-attributes` to your `.babelrc` file, you ca
         "patterns": [
           '^myAttribute$'
         ],
-        to_change = "HERE_COMES_THE_LIST_OF_IDS"
+        to_change = "MAX_PANEL_PLUGIN"
       }
     ]
   ],

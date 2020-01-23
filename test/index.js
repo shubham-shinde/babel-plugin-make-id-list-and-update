@@ -27,9 +27,12 @@ function test(fixtureName) {
     const fixturePath = path.resolve(__dirname, 'fixtures', fixtureName, `${fixtureName}.js`)
     const expectedPath = path.resolve(__dirname, 'fixtures', fixtureName, `${fixtureName}-expected.js`)
     const actual = babel.transformFileSync(fixturePath, {
-        plugins: [[path.resolve(__dirname, '..', 'src'), {patterns: [
-          /^data-uie/,
-        ]}]],
+        plugins: [[path.resolve(__dirname, '..', 'src'), {
+          patterns: [
+            /^data-uie/,
+          ],
+          to_change : "HERE_COMES_THE_LIST_OF_ID"
+        }]],
         presets: ['react'],
       }).code;
     const expected = fs.readFileSync(expectedPath, { encoding: 'utf8' });
