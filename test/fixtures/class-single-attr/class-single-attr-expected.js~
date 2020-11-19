@@ -1,8 +1,0 @@
-import React from 'react';
-a = ["Hello2ID", "HelloID", "Hello3ID"];
-class Hello {
-
-  render() {
-    return React.createElement("div", { id: "HelloID" });
-  }
-}

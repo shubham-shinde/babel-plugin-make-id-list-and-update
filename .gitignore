@@ -13,3 +13,10 @@
 /workspace.xml*
 npm-debug.log
 yarn-error.log
+*~
+*.swp
+*.swo
+tags
+.comet/
+memo.rb
+

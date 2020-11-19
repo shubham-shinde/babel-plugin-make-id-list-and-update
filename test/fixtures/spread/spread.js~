@@ -1,3 +1,0 @@
-import React from 'react';
-
-const func = (props) => (<div k=MAX_PANEL_PLUGIN {...props} />);
